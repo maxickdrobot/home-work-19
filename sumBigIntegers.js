@@ -14,7 +14,7 @@ function sumBigIntegers(numStr1, numStr2) {
   const BigInt2 = BigInt(numStr2);
   return BigInt1 + BigInt2;
 }
-console.log(sumBigIntegers('9007199254740991', '9007199254740991')); // виводить 18014398509481982n
-document.write(`<p>${sumBigIntegers('9007199254740991', '9007199254740991')}</p>`);
+console.log("9007199254740991 + 9007199254740991 = " + sumBigIntegers('9007199254740991', '9007199254740991')); // виводить 18014398509481982n
+document.write(`<p>9007199254740991 + 9007199254740991 = ${sumBigIntegers('9007199254740991', '9007199254740991')}</p>`);
 
 console.log("");
